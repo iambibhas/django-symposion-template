@@ -1,9 +1,9 @@
 django-symposion-template
 =====================
 
-a starter project demonstarting a minimal symposion instance. Supports Django 1.7+
+A starter project demonstarting a minimal symposion instance. Supports Django 1.7+
 
-Based on https://github.com/pinax/pinax-project-symposion
+Based on [pinax-project-symposion](https://github.com/pinax/pinax-project-symposion) and using my forked version of [symposion](https://github.com/iambibhas/symposion).
 
 Usage:
 
