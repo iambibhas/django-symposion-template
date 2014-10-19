@@ -18,7 +18,6 @@ Getting Started:
     django-admin.py startproject --extension=py,json --template=https://github.com/iambibhas/django-symposion-template/zipball/master mysite
     cd mysite
     pip install -r requirements.txt
-    python manage.py syncdb
-    python manage.py migrate
+    python manage.py syncdb --no-initial-data
     python manage.py loaddata fixtures/*
     python manage.py runserver
