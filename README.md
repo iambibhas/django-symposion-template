@@ -6,7 +6,7 @@ a starter project demonstarting a minimal symposion instance. Supports Django 1.
 
 Usage:
 
-    django-admin.py startproject --extension=py,json --template=https://github.com/pinax/pinax-project-symposion/zipball/master <project_name>
+    django-admin.py startproject --extension=py,json --template=https://github.com/iambibhas/django-symposion-template/zipball/master <project_name>
 
 Getting Started:
 
