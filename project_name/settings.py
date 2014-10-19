@@ -99,7 +99,7 @@ MIDDLEWARE_CLASSES = [
     "debug_toolbar.middleware.DebugToolbarMiddleware",
 ]
 
-ROOT_URLCONF = "mysym.urls"
+ROOT_URLCONF = "project_name.urls"
 
 TEMPLATE_DIRS = [
     os.path.join(PACKAGE_ROOT, "templates"),
@@ -157,7 +157,7 @@ INSTALLED_APPS = [
     "symposion.schedule",
 
     # project
-    "mysym.proposals.apps.ProposalConfig",
+    "project_name.proposals.apps.ProposalConfig",
 ]
 
 FIXTURE_DIRS = [
@@ -204,8 +204,8 @@ CONFERENCE_ID = 1
 SYMPOSION_PAGE_REGEX = r"(([\w-]{1,})(/[\w-]{1,})*)/"
 
 PROPOSAL_FORMS = {
-    "tutorial": "mysym.proposals.forms.TutorialProposalForm",
-    "talk": "mysym.proposals.forms.TalkProposalForm",
+    "tutorial": "project_name.proposals.forms.TutorialProposalForm",
+    "talk": "project_name.proposals.forms.TalkProposalForm",
 }
 
 # local_settings.py can be used to override environment-specific settings
