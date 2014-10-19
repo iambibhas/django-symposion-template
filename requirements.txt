@@ -19,5 +19,5 @@ pinax-theme-bootstrap==3.0a9
 pytz==2014.7
 six==1.8.0
 sqlparse==0.1.13
-symposion==1.0b1
-wsgiref==0.1.2
+
+-e git+git@github.com:iambibhas/symposion.git#egg=symposion
