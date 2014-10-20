@@ -157,7 +157,7 @@ INSTALLED_APPS = [
     "symposion.schedule",
 
     # project
-    "project_name.proposals.apps.ProposalConfig",
+    "project_name.proposals",
 ]
 
 FIXTURE_DIRS = [
